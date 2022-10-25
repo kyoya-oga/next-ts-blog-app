@@ -1,0 +1,30 @@
+{
+  "React Typescript Functional Component": {
+    "prefix": "rtsfc",
+    "body": [
+      "import { FC } from 'react';",
+      "",
+      "interface Props {$0}",
+      "",
+      "const ${TM_FILENAME_BASE}: FC<Props> = (props): JSX.Element => {",
+      "  return <div>${TM_FILENAME_BASE}$1</div>;",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ]
+  },
+  "Next JS Page With TS": {
+    "prefix": "ntsp",
+    "body": [
+      "import { NextPage } from 'next';",
+      "",
+      "interface Props {}",
+      "",
+      "const ${TM_FILENAME_BASE}: NextPage<Props> = () => {",
+      "  return <div>${TM_FILENAME_BASE}${0}</div>;",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ]
+  }
+}
